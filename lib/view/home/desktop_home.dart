@@ -98,8 +98,9 @@ class _DesktopHomeState extends State<DesktopHome> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              constraints: BoxConstraints(maxWidth: 1232),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
